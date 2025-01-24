@@ -1,0 +1,30 @@
+{
+  "name": "tapnew",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "latest",
+    "dayjs": "latest",
+    "expo": "latest",
+    "expo-av": "~15.0.1",
+    "expo-sqlite": "~15.0.3",
+    "expo-status-bar": "latest",
+    "react": "latest",
+    "react-native": "latest",
+    "react-native-image-pan-zoom": "latest",
+    "react-native-modal-datetime-picker": "latest",
+    "react-native-sound": "latest",
+    "react-native-vector-icons": "latest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
